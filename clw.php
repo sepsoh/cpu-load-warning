@@ -3,7 +3,7 @@
 // Sepehr Soheili\'s Fun Project 
 // Enjoy !!!
 // this program only work on linux
-if(php_uname('s') !== 'Linux'){
+if(php_uname('s') == 'Linux'){
   echo 'running -----';
   $arr = ['+----','-+---','--+--','---+-','----+'];
   $runCounter = 0;
@@ -24,5 +24,5 @@ if(php_uname('s') !== 'Linux'){
     }
   }
 }else{
-echo 'this program only work on linux !! ';
+  echo 'this program only work on linux !! ';
 }
