@@ -1,5 +1,6 @@
 # cpu-load-warning
-this program alert you when your load is more than 99%
+simple program that alert you as notify when your load is more than 99% 
+weiten
 and
 # how to use
 install ```apt install php``` or ``` yum install php```  or  ...
